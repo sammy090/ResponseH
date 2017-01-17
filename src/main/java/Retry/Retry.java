@@ -7,7 +7,7 @@ import org.testng.ITestResult;
 public class Retry implements IRetryAnalyzer {
 
     int retrycount = 0;
-    int maxretyrcount =2;
+    int maxretyrcount =1;
 
     @Override
     public boolean retry(ITestResult result) {
