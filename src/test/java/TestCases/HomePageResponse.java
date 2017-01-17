@@ -18,8 +18,6 @@ public class HomePageResponse extends HomePageHeaders {
         new HomePageResponse().HomePageResponseForUSA();
     }
 
-
-
 }
 
 
