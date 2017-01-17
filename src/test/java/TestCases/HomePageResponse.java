@@ -18,10 +18,7 @@ public class HomePageResponse extends HomePageHeaders {
         new HomePageResponse().HomePageResponseForUSA();
     }
 
-    @Test
-    public void TestHime() throws Exception {
 
-    }
 
 }
 
