@@ -29,7 +29,7 @@
     </test>
 
 
-    <test name="AkamaiResponseHeaderINTL" >
+    <test name="AkamaiResponseHeaderINT" >
         <classes>
 
 
