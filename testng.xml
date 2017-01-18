@@ -29,4 +29,14 @@
     </test>
 
 
+    <test name="AkamaiResponseHeaderINTL" >
+        <classes>
+
+
+
+        </classes>
+    </test>
+
+
+
 </suite>
