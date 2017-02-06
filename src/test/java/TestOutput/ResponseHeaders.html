@@ -42,7 +42,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-				<span class='label suite-start-time'>Jan 20, 2017 10:15:06 AM</span>
+				<span class='label suite-start-time'>Jan 22, 2017 7:06:42 PM</span>
 			</a>
 			<a href='#!'>
 				<span class='label'>v3.0.1</span>
@@ -118,7 +118,7 @@
 					<span><span class='strong'>8</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> test(s) failed, <span class='strong'>1</span> others
+					<span class='strong'>0</span> test(s) failed, <span class='strong'>2</span> others
 				</div>
 			</div>
 		</div>
@@ -133,7 +133,7 @@
 					<span><span class='strong'>8</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> step(s) failed, <span class='strong'>1</span> others
+					<span class='strong'>0</span> step(s) failed, <span class='strong'>2</span> others
 				</div>
 			</div>
 		</div>
@@ -150,15 +150,15 @@
 				
 				<li class='test displayed active  skip' status='skip' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>PDPResponseUS</span>
-						<span class='test-time'>Jan 20, 2017 10:15:22 AM</span>
+						<span class='test-name'>CDPResponseUS</span>
+						<span class='test-time'>Jan 22, 2017 7:06:45 PM</span>
 						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:22 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:25 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+154ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:45 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+467ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -172,7 +172,78 @@
 			<tbody>
 				<tr class='log' status='skip'>
 					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-					<td class='timestamp'>10:15:35 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
+					<td class='step-details'><pre>java.lang.AssertionError: expected [/L/8125/250672/1h/www.ivivva.com/products/category/girls-hoodies?akamai-transform=9 cid=pagesize=All_UsrLocale=en_US&Country=US&cartCount=0_] but found [/L/8125/250672/1h/www.ivivva.com/products/category/girls-hoodies cid=pagesize=All_UsrLocale=en_US&Country=US&cartCount=0_]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at TestData.IV.CDP.CDPHeaders.CDPHeaderUSA(CDPHeaders.java:66)
+	at TestCases.CDPResponse.CDPResponseUS(CDPResponse.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+</pre></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>PDPResponseUS</span>
+						<span class='test-time'>Jan 22, 2017 7:06:47 PM</span>
+						<span class='test-status right skip'>skip</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 22, 2017 7:06:47 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:48 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+971ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'><pre>java.lang.AssertionError: expected [/L/8125/250672/15m/www.ivivva.com/products/clothes-accessories/girls-hoodies/perfect-your-practice-jacket?akamai-transform=9 cid=cc=24272&skuId=us_3660234&catId=girls-hoodies_UsrLocale=en_US&Country=US&cartCount=0_] but found [/L/8125/250672/15m/www.ivivva.com/products/clothes-accessories/girls-hoodies/perfect-your-practice-jacket cid=cc=24272&skuId=us_3660234&catId=girls-hoodies_UsrLocale=en_US&Country=US&cartCount=0_]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -219,51 +290,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
-					<div class='test-heading'>
-						<span class='test-name'>CDPResponseCA</span>
-						<span class='test-time'>Jan 20, 2017 10:15:13 AM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:13 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:16 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+759ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
-						<span class='test-name'>PDPResponseCA</span>
-						<span class='test-time'>Jan 20, 2017 10:15:19 AM</span>
+						<span class='test-name'>HomePageResponseUS</span>
+						<span class='test-time'>Jan 22, 2017 7:06:44 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:19 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:22 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+450ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:44 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+788ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -277,7 +314,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -289,15 +326,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
-						<span class='test-name'>CheckoutResponseCA</span>
-						<span class='test-time'>Jan 20, 2017 10:15:28 AM</span>
+						<span class='test-name'>PDPResponseUS</span>
+						<span class='test-time'>Jan 22, 2017 7:06:48 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:28 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:32 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+715ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:48 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:48 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+282ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -311,7 +348,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -323,15 +360,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
 					<div class='test-heading'>
-						<span class='test-name'>HomePageResponseCA</span>
-						<span class='test-time'>Jan 20, 2017 10:15:06 AM</span>
+						<span class='test-name'>CDPResponseCA</span>
+						<span class='test-time'>Jan 22, 2017 7:06:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:06 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:10 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+775ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:45 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+539ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -345,7 +382,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -357,15 +394,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
 					<div class='test-heading'>
-						<span class='test-name'>CheckoutResponseUS</span>
-						<span class='test-time'>Jan 20, 2017 10:15:32 AM</span>
+						<span class='test-name'>CheckoutResponseCA</span>
+						<span class='test-time'>Jan 22, 2017 7:06:48 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:32 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:35 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+845ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:48 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+759ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -379,7 +416,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -391,15 +428,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
 					<div class='test-heading'>
-						<span class='test-name'>PDPResponseUS</span>
-						<span class='test-time'>Jan 20, 2017 10:15:25 AM</span>
+						<span class='test-name'>CheckoutResponseUS</span>
+						<span class='test-time'>Jan 22, 2017 7:06:50 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:25 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:28 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+434ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:50 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+567ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -413,7 +450,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -425,15 +462,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
 					<div class='test-heading'>
-						<span class='test-name'>HomePageResponseUS</span>
-						<span class='test-time'>Jan 20, 2017 10:15:10 AM</span>
+						<span class='test-name'>PDPResponseCA</span>
+						<span class='test-time'>Jan 22, 2017 7:06:46 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:10 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:13 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+739ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:46 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:47 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+770ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -447,7 +484,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -460,14 +497,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>CDPResponseUS</span>
-						<span class='test-time'>Jan 20, 2017 10:15:16 AM</span>
+						<span class='test-time'>Jan 22, 2017 7:06:46 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 20, 2017 10:15:16 AM</span>
-	<span class='label end-time'>Jan 20, 2017 10:15:19 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+13ms</span>
+	<span class='label start-time'>Jan 22, 2017 7:06:46 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+229ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -481,7 +518,41 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:15:36 AM</td>
+					<td class='timestamp'>7:06:50 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>HomePageResponseCA</span>
+						<span class='test-time'>Jan 22, 2017 7:06:42 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 22, 2017 7:06:42 PM</span>
+	<span class='label end-time'>Jan 22, 2017 7:06:44 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+713ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>7:06:50 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -555,8 +626,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 20, 2017 10:15:22 AM</td>
-										<td class='linked' test-id='1'>PDPResponseUS</td>
+										<td>Jan 22, 2017 7:06:47 PM</td>
+										<td class='linked' test-id='2'>PDPResponseUS</td>
 										<td><pre><pre>java.lang.AssertionError: expected [/L/8125/250672/15m/www.ivivva.com/products/clothes-accessories/girls-hoodies/perfect-your-practice-jacket?akamai-transform=9 cid=cc=24272&skuId=us_3660234&catId=girls-hoodies_UsrLocale=en_US&Country=US&cartCount=0_] but found [/L/8125/250672/15m/www.ivivva.com/products/clothes-accessories/girls-hoodies/perfect-your-practice-jacket cid=cc=24272&skuId=us_3660234&catId=girls-hoodies_UsrLocale=en_US&Country=US&cartCount=0_]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -619,31 +690,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>9</div>
+					<div class='panel-lead'>10</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>9</div>
+					<div class='panel-lead'>10</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 20, 2017 10:15:06 AM</div>
+					<div class='panel-lead'>Jan 22, 2017 7:06:42 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 20, 2017 10:15:36 AM</div>
+			 		<div class='panel-lead'>Jan 22, 2017 7:06:50 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>29,225ms</div>
+					<div class='panel-lead'>8,346ms</div>
 				</div>
 			</div>
 		</div>
@@ -669,17 +740,17 @@
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 1,
-				exceptionsParent: 1,
+				skipParent: 2,
+				exceptionsParent: 2,
 				
 				passChild: 8,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 1,
+				skipChild: 2,
 				infoChild: 0,
-				exceptionsChild: 1,
+				exceptionsChild: 2,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
